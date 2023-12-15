@@ -1,7 +1,7 @@
-const quotes = require('./data/quote.json');
-const app = express();
-const cors = require('cors');
 const express = require('express');
+const app = express();
+const quotes = require('./data/quote.json');
+const cors = require('cors');
 
 app.use(cors());
 
