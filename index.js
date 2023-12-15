@@ -15,7 +15,7 @@ function getRandomQuote() {
 }
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+app.get('/', function (req, res, next) {
     const quote = getRandomQuote();
     res.json([
         {
